@@ -9,16 +9,8 @@ The goal of this project is to classify MRI images into two categories: `yes` (t
 ## Dataset:
 
 The dataset used in this project contains MRI images categorized into two classes: `yes` and `no`. The dataset is organized in a directory structure as follows:
+![image](https://github.com/ronakbediya310/Visual-Attention-For-Brain-Tumor-Detection/assets/124416368/f4f99a18-b6f3-4491-8e36-ce2f3258d651)
 
-brain_tumor_dataset/
-├── yes/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ └── ...
-└── no/
-├── image1.jpg
-├── image2.jpg
-└── ...
 
 
 ## Model Architecture:
