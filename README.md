@@ -39,4 +39,5 @@ After training the model, the test accuracy will be printed. You can expect an a
 
 Test Accuracy: **0.9500**
 
+![image](https://github.com/ronakbediya310/Visual-Attention-For-Brain-Tumor-Detection/assets/124416368/7b4b7cbd-dd86-421d-9f12-b97cd59752b2)
 
