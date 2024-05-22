@@ -31,8 +31,10 @@ You can install the required packages using the following command:
 pip install torch torchvision scikit-learn pillow
 
 ## Attention Block:
-The attention block is implemented to enhance the feature extraction process by focusing on the relevant parts of the image.
-The model is trained using the **Adam optimizer and cross-entropy loss**.
+* The attention block is implemented to enhance the feature extraction process by focusing on the relevant parts of the image.
+* The model is trained using the **Adam optimizer and cross-entropy loss**.
+* In the AttentionCNN model, we are applying a type of visual attention mechanism known as Spatial Attention. This mechanism is implemented through the AttentionBlock class, where attention weights are computed based on the spatial relationships between different regions within the feature maps.
+* The AttentionBlock calculates attention weights by performing operations on spatial dimensions of the feature maps, specifically using convolutional layers to generate query, key, and value tensors. These tensors are then used to compute attention scores, which are applied to modulate the feature maps. Finally, the attended feature maps are combined with the original feature maps to produce the output.
 
 ## Results:
 After training the model, the test accuracy will be printed. You can expect an accuracy around the reported value depending on the dataset and hyperparameters.
